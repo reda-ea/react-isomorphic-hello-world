@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 var server = require('./http');
 var compile = require('./webpack');

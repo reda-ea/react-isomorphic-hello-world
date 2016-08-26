@@ -23,6 +23,9 @@ module.exports = function compile(filename, cb) {
             }
         }],
       },
+      resolve: {
+        extensions: ['', '.js', '.jsx']
+      },
     };
     var compiler = webpack(webpackCfg);
 

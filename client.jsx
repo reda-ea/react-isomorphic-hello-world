@@ -4,7 +4,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './app.jsx';
+import App from './app';
 
 // remount the same root component that was rendered by the server
 ReactDOM.render(<App/>, document.getElementById('react-root'));

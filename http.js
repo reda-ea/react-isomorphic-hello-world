@@ -12,7 +12,7 @@ module.exports = function(port, handler) {
             return response.end();
         }
 
-        // handler is called on each request, which will recompile all assets
+        // handler is called on each request (will recompile js and render html)
         handler(function(err, body) {
             if(err) {
                 // reply with 500 if handler returns an error
